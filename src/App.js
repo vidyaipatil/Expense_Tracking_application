@@ -4,10 +4,12 @@ import SubComponent1 from "./SubComponent1";
 import NewExpence from "./component/NewExpence/NewExpence";
 import Expences from "./component/Expences";
 
+
 const App = () => {
     const [data, setData] = useState([]);
 
     // Fetch expenses from the server
+    //fetching the data from Custom API
     const fetchExpenses = async () => {
         try {
             const response = await fetch('http://localhost:8080/expense/v1/list/expense');
@@ -23,7 +25,8 @@ const App = () => {
         fetchExpenses();
     }, []);
 
-    // Post a new expense to the server
+    // Post a new expense to the server 
+    //Store the data with the help of Custom API
     const postExpense = async (expense) => {
         try {
             const response = await fetch('http://localhost:8080/expense/v1/create/expense', {
