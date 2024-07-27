@@ -1,0 +1,27 @@
+/*.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Ensures consistent gaps between items 
+    margin: 10px;
+    border: 4px solid red;
+    background-color: blueviolet;
+}*/
+.main {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    /* margin: 30px; */
+    margin-top: 30px;
+    justify-content: center;
+    background-color: rgb(20, 19, 19);
+    padding: 20px;
+    padding-top: 50px;
+    max-width: 90%;
+    overflow-x: hidden;
+    border-radius: 15px;
+}
+.expense-item{
+    border: 4px solid green;
+}
+

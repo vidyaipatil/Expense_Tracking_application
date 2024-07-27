@@ -1,0 +1,26 @@
+.main2 {
+    display: flex;
+    flex-direction: row; /* Ensures the elements stack horizontally */
+    align-items: center; /* Centers items vertically within the container */
+    justify-content: center; /* Centers items horizontally within the container */
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(30, 25, 25);
+    color: aliceblue;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.e1 {
+    font-size: 25px;
+}
+
+.e2 {
+    font-size: 20px;
+}
+
+.e3 {
+    font-size: 17px;
+}

@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Expense Tracking application 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the single page web application created in the React Js for Tracking the Expence with help of its Date and Name
 
 ## Available Scripts
 
